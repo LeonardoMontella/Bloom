@@ -44,11 +44,16 @@
             color: #720000;
         }
     </style>
+    <script>
+        function openInBrowser(url) {
+            window.open(url, '_blank');
+        }
+    </script>
 </head>
 <body>
     <div class="title">bloom</div>
     <div class="button-container">
-        <a href="https://www.paypal.com/pools/c/99hDXtBRli" target="_blank">Link PayPal</a>
+        <a href="#" onclick="openInBrowser('https://www.paypal.com/pools/c/99hDXtBRli'); return false;">Link PayPal</a>
     </div>
 </body>
 </html>
